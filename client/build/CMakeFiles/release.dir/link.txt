@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/release.dir/main.cpp.o CMakeFiles/release.dir/chat.cpp.o CMakeFiles/release.dir/database.cpp.o CMakeFiles/release.dir/request.cpp.o CMakeFiles/release.dir/handler.cpp.o -o release 
