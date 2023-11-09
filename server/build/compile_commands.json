@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/awl/projects/webchat/server/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_server.dir/main.cpp.o -c /home/awl/projects/webchat/server/main.cpp",
+  "file": "/home/awl/projects/webchat/server/main.cpp"
+},
+{
+  "directory": "/home/awl/projects/webchat/server/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_server.dir/chat.cpp.o -c /home/awl/projects/webchat/server/chat.cpp",
+  "file": "/home/awl/projects/webchat/server/chat.cpp"
+},
+{
+  "directory": "/home/awl/projects/webchat/server/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_server.dir/request.cpp.o -c /home/awl/projects/webchat/server/request.cpp",
+  "file": "/home/awl/projects/webchat/server/request.cpp"
+},
+{
+  "directory": "/home/awl/projects/webchat/server/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_server.dir/handler.cpp.o -c /home/awl/projects/webchat/server/handler.cpp",
+  "file": "/home/awl/projects/webchat/server/handler.cpp"
+},
+{
+  "directory": "/home/awl/projects/webchat/server/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_server.dir/database.cpp.o -c /home/awl/projects/webchat/server/database.cpp",
+  "file": "/home/awl/projects/webchat/server/database.cpp"
+}
+]
