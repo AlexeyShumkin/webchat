@@ -1,14 +1,5 @@
 #pragma once
-#include <unistd.h>
-#include <string.h>
-#include <sys/socket.h>
-#include <arpa/inet.h>
-#include "request.h"
-
-#define MESSAGE_LENGTH 1024
-#define PORT 1666
-
-class Request;
+#include "connector.h"
 
 class Chat
 {
@@ -24,4 +15,5 @@ private:
     bool active_{ true };
     Request* request_{ nullptr };
     DataBase* database_{ nullptr };
+    std::unique_ptr<Connector> connector_;
 };

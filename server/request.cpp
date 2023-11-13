@@ -1,4 +1,5 @@
 #include "chat.h"
+#include "request.h"
 
 Request::~Request() { delete handler_; }
 
@@ -10,6 +11,10 @@ void Request::setPathForRead(const fs::path& path) { pathForRead_ = path; }
 
 void Request::makeRequest(Chat* chat, Request* request) { chat->makeRequest(request); }
 
+std::unique_ptr<Connector>& Request::getConnector(Chat* chat) const
+{
+    return chat->connector_;
+}
 void Request::exit(Chat* chat) { chat->active_ = false; }
 
 SignUp::SignUp() { handler_ = new SignUpHandler(); }
@@ -26,7 +31,16 @@ void SignUp::request(Chat* chat)
         if (dataset_[0] == "all" || !chat->send(this))
 		    std::cout << "This login is already taken!\n";
 	    else
-		    std::cout << "Registration was successful!\n";
+        {
+            std::cout << "Registration was successful!\n";
+            if(getConnector(chat)->establish())
+                std::cout << "Connection was successful!\n";
+            Dataset tmp = dataset_;
+            getConnector(chat)->passOn(tmp);
+            getConnector(chat)->take(this);
+            if(chat->send(this))
+                std::cout << "User " << dataset_[0] << " just sign up!\n";
+        }
         break;
     case '2':
         makeRequest(chat, new SignIn());

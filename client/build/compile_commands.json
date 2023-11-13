@@ -23,5 +23,10 @@
   "directory": "/home/awl/projects/webchat/client/build",
   "command": "/usr/bin/g++   -g -o CMakeFiles/chat_client.dir/database.cpp.o -c /home/awl/projects/webchat/client/database.cpp",
   "file": "/home/awl/projects/webchat/client/database.cpp"
+},
+{
+  "directory": "/home/awl/projects/webchat/client/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/chat_client.dir/connector.cpp.o -c /home/awl/projects/webchat/client/connector.cpp",
+  "file": "/home/awl/projects/webchat/client/connector.cpp"
 }
 ]

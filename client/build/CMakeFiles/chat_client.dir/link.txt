@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/chat_client.dir/main.cpp.o CMakeFiles/chat_client.dir/chat.cpp.o CMakeFiles/chat_client.dir/request.cpp.o CMakeFiles/chat_client.dir/handler.cpp.o CMakeFiles/chat_client.dir/database.cpp.o -o chat_client 
+/usr/bin/g++ -g -rdynamic CMakeFiles/chat_client.dir/main.cpp.o CMakeFiles/chat_client.dir/chat.cpp.o CMakeFiles/chat_client.dir/request.cpp.o CMakeFiles/chat_client.dir/handler.cpp.o CMakeFiles/chat_client.dir/database.cpp.o CMakeFiles/chat_client.dir/connector.cpp.o -o chat_client 

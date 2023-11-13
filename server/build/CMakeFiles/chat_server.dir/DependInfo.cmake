@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/awl/projects/webchat/server/chat.cpp" "CMakeFiles/chat_server.dir/chat.cpp.o" "gcc" "CMakeFiles/chat_server.dir/chat.cpp.o.d"
+  "/home/awl/projects/webchat/server/connector.cpp" "CMakeFiles/chat_server.dir/connector.cpp.o" "gcc" "CMakeFiles/chat_server.dir/connector.cpp.o.d"
   "/home/awl/projects/webchat/server/database.cpp" "CMakeFiles/chat_server.dir/database.cpp.o" "gcc" "CMakeFiles/chat_server.dir/database.cpp.o.d"
   "/home/awl/projects/webchat/server/handler.cpp" "CMakeFiles/chat_server.dir/handler.cpp.o" "gcc" "CMakeFiles/chat_server.dir/handler.cpp.o.d"
   "/home/awl/projects/webchat/server/main.cpp" "CMakeFiles/chat_server.dir/main.cpp.o" "gcc" "CMakeFiles/chat_server.dir/main.cpp.o.d"

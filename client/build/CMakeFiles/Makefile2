@@ -837,12 +837,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/chat_client.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/awl/projects/webchat/client/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target chat_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/awl/projects/webchat/client/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target chat_client"
 .PHONY : CMakeFiles/chat_client.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chat_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awl/projects/webchat/client/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awl/projects/webchat/client/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chat_client.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/awl/projects/webchat/client/build/CMakeFiles 0
 .PHONY : CMakeFiles/chat_client.dir/rule

@@ -547,6 +547,30 @@ chat.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/chat.cpp.s
 .PHONY : chat.cpp.s
 
+connector.o: connector.cpp.o
+.PHONY : connector.o
+
+# target to build an object file
+connector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/connector.cpp.o
+.PHONY : connector.cpp.o
+
+connector.i: connector.cpp.i
+.PHONY : connector.i
+
+# target to preprocess a source file
+connector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/connector.cpp.i
+.PHONY : connector.cpp.i
+
+connector.s: connector.cpp.s
+.PHONY : connector.s
+
+# target to generate assembly for a file
+connector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chat_client.dir/build.make CMakeFiles/chat_client.dir/connector.cpp.s
+.PHONY : connector.cpp.s
+
 database.o: database.cpp.o
 .PHONY : database.o
 
@@ -686,6 +710,9 @@ help:
 	@echo "... chat.o"
 	@echo "... chat.i"
 	@echo "... chat.s"
+	@echo "... connector.o"
+	@echo "... connector.i"
+	@echo "... connector.s"
 	@echo "... database.o"
 	@echo "... database.i"
 	@echo "... database.s"

@@ -4,6 +4,7 @@
 #include <vector>
 #include <string>
 #include <filesystem>
+#include <memory>
 
 using Dataset = std::vector<std::string>;
 namespace fs = std::filesystem;

@@ -2,6 +2,7 @@
 #include "handler.h"
 
 class Chat;
+class Connector;
 
 class Request
 {
@@ -12,6 +13,8 @@ public:
     const Dataset& getDataset() const;
     void setPathForRead(const fs::path& path);
 protected:
+    friend class Connector;
+    std::unique_ptr<Connector>& getConnector(Chat* chat) const;
     void makeRequest(Chat* chat, Request* request);
     void exit(Chat* chat);
     fs::path pathForRead_;
